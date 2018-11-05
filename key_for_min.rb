@@ -21,6 +21,8 @@ def key_for_min_value(name_hash)
     if value == smallest 
     key
     current_key << key
+    elsif value == nil
+    nil
     end
   end
   current_key.join("").to_sym
