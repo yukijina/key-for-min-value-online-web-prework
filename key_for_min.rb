@@ -27,6 +27,11 @@ def key_for_min_value(name_hash)
     nil
     end
   end
+  
+  if current_key  == []
+  nil
+  else
   current_key.join("").to_sym
+  end
     
 end
