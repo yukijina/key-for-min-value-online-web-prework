@@ -16,11 +16,12 @@ def key_for_min_value(name_hash)
     smallest = text[2]
   end
  
-
+  current_key = []
   name_hash.collect do |key,value|
     if value == smallest 
     key
-    #key.delete_if { |k, v| k.nil? }
+    current_key << key
+    
     end
     
     
