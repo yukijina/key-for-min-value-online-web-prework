@@ -8,7 +8,9 @@ def key_for_min_value(name_hash)
   end 
    text
   
-  if text[0]<text[1] && text[0]<text[2]
+  if text == []
+   nil
+  elsif text[0]<text[1] && text[0]<text[2]
     smallest = text[0]
   elsif text[1]<text[2]
     smallest = text[1]
