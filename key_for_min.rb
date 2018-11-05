@@ -23,6 +23,6 @@ def key_for_min_value(name_hash)
     current_key << key
     end
   end
-  current_key
+  current_key.to_sym
     
 end
